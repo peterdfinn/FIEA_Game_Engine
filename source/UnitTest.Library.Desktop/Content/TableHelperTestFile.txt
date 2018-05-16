@@ -1,0 +1,64 @@
+{
+  "testInt":
+  {
+    "type": "integer",
+    "value": 4
+  },
+  "testIntArray":
+  {
+    "type": "integer",
+    "value": [1, 2, 3]
+  },
+  "testFloat":
+  {
+    "type": "float",
+    "value": -9.99
+  },
+  "testFloatArray":
+  {
+    "type": "float",
+    "value": [0.1, 0.2]
+  },
+  "testVector":
+  {
+    "type": "vector",
+    "value": "vec4(2.0, 2.0, 2.0, 2.0)"
+  },
+  "testVectorArray":
+  {
+    "type": "vector",
+    "value": ["vec4(1.1, 1.1, 1.1, 1.1)", "vec4(2.2, 2.2, 2.2, 2.2)"]
+  },
+  "testMatrix":
+  {
+    "type": "matrix",
+    "value": "mat4x4((0.0, 0.1, 0.2, 0.3), (1.0, 1.1, 1.2, 1.3), (2.0, 2.1, 2.2, 2.3), (3.0, 3.1, 3.2, 3.3))"
+  },
+  "testMatrixArray":
+  {
+    "type": "matrix",
+    "value": ["mat4x4((0.0, 0.1, 0.2, 0.3), (1.0, 1.1, 1.2, 1.3), (2.0, 2.1, 2.2, 2.3), (3.0, 3.1, 3.2, 3.3))", "mat4x4((0.0, 0.1, 0.2, 0.3), (1.0, 1.1, 1.2, 1.3), (2.0, 2.1, 2.2, 2.3), (3.0, 3.1, 3.2, 3.3))"]
+  },
+  "testString":
+  {
+    "type": "string",
+    "value": "Testing"
+  },
+  "testStringArray":
+  {
+    "type": "string",
+    "value": ["hello", "world"]
+  },
+  "testScope":
+  {
+    "type": "table",
+    "value":
+    {
+      "childString":
+      {
+        "type": "string",
+        "value": "Hello world"
+      }
+    }
+  }
+}

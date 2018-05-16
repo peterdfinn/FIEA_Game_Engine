@@ -1,0 +1,28 @@
+{
+  "testWorld":
+  {
+    "type": "world",
+    "value":
+    {
+      "testSector":
+      {
+        "type": "sector",
+        "value": 
+        {
+          "testEntity":
+          {
+            "type": "entity",
+            "value": 
+            {
+              "mInteger":
+              {
+                "type": "integer",
+                "value": 80085
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
